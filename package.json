@@ -4,7 +4,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js"
+    "start": "nodemon app.js",
+    "lint": "eslint .",
+    "build": "echo \"Build command here\" && exit 0"
   },
   "author": "",
   "license": "ISC",
@@ -36,6 +38,7 @@
   "keywords": [],
   "description": "",
   "devDependencies": {
-    "nodemon": "^3.1.4"
+    "nodemon": "^3.1.4",
+    "eslint": "^8.34.0"
   }
 }
